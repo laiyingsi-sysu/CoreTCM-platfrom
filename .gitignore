@@ -1,0 +1,50 @@
+# R sessions and local user configuration
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+.Renviron
+.Renviron.*
+.Rprofile
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/staging/
+# Credentials and deployment account configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.httr-oauth
+rsconnect/
+*.pem
+*.key
+# Local data and generated results
+/data/raw/
+/data/private/
+/data/clinical/
+/output/
+/outputs/
+/results/
+/tests/visual-report/
+/examples/synthetic/edema_sim_data.csv
+*.log
+*.rds
+*.Rds
+*.rda
+*.Rda
+*.zip
+*.docx
+*.pdf
+Rplots.pdf
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+*.bak
+*~
